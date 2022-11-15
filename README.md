@@ -1,1 +1,2 @@
 # OIBGRIP
+This is the Task-3: Temperature Converter Website:- For this project, the user will essentially enter a temperature in either Fahrenheit or Celsius and click a "convert" button. If user entered temperature value in celsious and clicked on convert to Fahrenheit button it will convert the value in Fahrenheit and shows the correct value in Fahrenheit to the user this process is also applicable in viceversa also.
