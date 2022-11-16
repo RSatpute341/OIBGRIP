@@ -9,26 +9,26 @@
 </head>
 
 <body>
-
   <div class="container">
-    <h2 id="container-heading">Temperature Converter</h2>
-    <br>
-    <label for="celsius">Celsius</label>
-    <br>
-    <input type="number" id="celsius" placeholder="Enter Celsius">
-    <button class="button" onclick="celToFar()">convert Fahrenheit</button>
+    <h2 id="container-heading"> Temperature Converter</h2>
     <br><br>
+    <div class="input_box">
+      <label for="celsius">Celsius</label><br>
+      <input type="number" id="celsius" placeholder="Enter Degrees">
+      <button class="button" onclick="celToFar()">Convert To Fahrenheit</button>
+    </div>
 
-
-
-    <label for="fahrenheit">Fahrenheit</label>
     <br>
-    <input type="number" id="fahrenheit" placeholder="Enter Fahrenheit">
-    <button class="button" onclick="farToCel()">convert Celsius</button>
+    <div class="input_box">
+      <label for="fahrenheit">Fahrenheit</label>
+      <input type="number" id="fahrenheit" placeholder="Enter Degrees">
+      <button class="button" onclick="farToCel()">Convert To Celsius</button>
+    </div>
+
     <br><br>
     <button class="button" onclick="reset()">Reset</button>
-
   </div>
+
   <script src="script.js"></script>
 
 </body>
